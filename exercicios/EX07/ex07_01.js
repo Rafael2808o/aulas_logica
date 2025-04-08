@@ -1,0 +1,20 @@
+// Crie uma lista de filmes com 7 filmes e faça as seguintes operações com ela
+let filmes = ["Gato de Botas", "Minecraft", "Carros 3", "Shrek", "Vingadores Ultimato", "Homem Aranha", "Frozen"]
+console.log(filmes)
+console.log(filmes[0])
+console.log(filmes[4])
+filmes[6] = ["Smurfs"]
+console.log(filmes)
+filmes.push('Nosferatu')
+console.log(filmes)
+filmes.splice(5, 0, 'A verdadeira Dor')
+console.log(filmes)
+filmes.shift()
+console.log(filmes)
+filmes.pop()
+console.log(filmes)
+console.log(filmes.slice(0,3))
+console.log(filmes.slice(3,7))
+console.log(filmes.length)
+filmes.reverse()
+console.log(filmes)

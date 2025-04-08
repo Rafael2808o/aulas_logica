@@ -1,0 +1,11 @@
+# Arquivos temporarios
+*.tmp
+
+# Arquivos de compilação
+*.exe
+
+# Diretório de depenências 
+node_modules/
+
+# Arquivo específico com dados e senhas 
+conexão.py
